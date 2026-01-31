@@ -1,0 +1,72 @@
+.navMain {
+  width: 1020px;       
+  height: 80px;        
+  margin: 0 auto;      
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;           
+  /* Estética */
+  background-color: #ffffff;
+  border: 2px solid #000;
+  box-sizing: border-box;        
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.navMain div {
+  width: 235px;
+  height: 50px;
+  
+  background-color: #e0e0e0; 
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background 0.3s;
+  
+}
+
+.navMain div:hover {
+  background-color: rgb(11, 167, 0);
+}
+.navMain div:hover h3{
+  color: rgb(0, 255, 255);
+}
+
+
+
+#BS {
+  display: none; 
+}
+
+
+@media (max-width: 1024px) {
+.navMain {
+    width: 100%;
+  }
+}
+
+@media (max-width: 770px) {
+  .navMain {
+    display: none; 
+  }
+
+  #BS {
+    display: block; 
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(11, 167, 0);
+    color: rgb(0, 255, 255);
+    padding: 20px;
+    position: relative; /* El z-index solo funciona con posiciones que no sean static */
+    z-index: 10;
+  }
+}

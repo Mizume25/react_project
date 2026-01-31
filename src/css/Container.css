@@ -1,0 +1,29 @@
+/* En Container.css */
+.grid-parent {
+  display: grid;
+  grid-template-columns: 270px 1020px 270px;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.central-column {
+  display: flex;
+  flex-direction: column; 
+}
+
+.sideBarLeft, .sideBarRight {
+  height: 100%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 45% center;
+}
+
+.sideBarLeft{
+    background-image: url("../IMG/AsideIMG.jpg");
+
+
+}
+
+.sideBarRight{
+    background-image: url("../IMG/Aside-RightIMG.jpg");
+}
