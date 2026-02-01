@@ -1,4 +1,3 @@
-/* En Container.css */
 .grid-parent {
   display: grid;
   grid-template-columns: 270px 1020px 270px;
@@ -26,4 +25,50 @@
 
 .sideBarRight{
     background-image: url("../IMG/Aside-RightIMG.jpg");
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+  .grid-parent {
+
+    grid-template-columns: 1fr; 
+    width: 100%;
+  }
+
+
+  .sideBarLeft, 
+  .sideBarRight {
+    display: none;
+  }
+
+  .central-column {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .grid-parent {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 512px) {
+  .grid-parent {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 412px) {
+  .central-column {
+    padding: 0; 
+  }
 }

@@ -90,18 +90,74 @@
 }
 
 
-/*Responsive de 1024 px*/
-@media(max-width:1024px){
-.sideBarLeft,
-.sideBarRight{
-display: none;
+
+
+@media (max-width: 1024px) {
+    .sideBarLeft, .sideBarRight {
+        display: none;
+    }
+    .title {
+        height: 250px;
+  
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; 
+        gap: 10px;
+    }
 }
 
-.title{
-    width: 100%;
+
+@media (max-width: 770px) {
+    .title {
+        height: 200px;
+    }
+
+    .title::before {
+        background-size: 50%;
+        background-position: center 20%;
+    }
+    
+
+    .title div {
+        width: 80px;
+        height: 40px;
+        font-size: 0.8rem;
+    }
+
+    @keyframes moveLogo {
+        from { transform: rotate(0deg) translateX(5px) rotate(0deg); }
+        to { transform: rotate(360deg) translateX(5px) rotate(-360deg); }
+    }
 }
 
 
+@media (max-width: 512px) {
+    .title {
+        height: 180px;
+        flex-wrap: wrap;
+    }
+    .title::before {
+        background-position: center 15%; 
+        background-size: 70%; 
+    }
+}
 
+
+@media (max-width: 412px) {
+    .title {
+        height: 150px;
+        padding-bottom: 10px; 
+    }
+    .title::before {
+        background-size: 90%; 
+        animation: moveLogo 8s linear infinite;
+    }
+    
+
+    .title div {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
 }
 
