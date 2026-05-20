@@ -1,16 +1,22 @@
-# React + Vite
+# Proyecto de Practica 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objetivo Real y conclusion general 
+El proyecto "react_project" fue un proyecto destinado única y exclusivamente a familiarizarme con el stack tecnológico REACT.
+Este proyecto fue desarollado con la única intencion de desenvolverme en 4 funciones generales que me acompañaran mas adelante.
 
-Currently, two official plugins are available:
+- Uso de Hooks:Concretamente hice un uso sencillo de useState, useEffect. 
+- Uso de props: El sistema de intercambiar datos de padre a hijo y de hijo a padre. 
+- Uso de api: Fue mi primer acercamiento con la lectura de un api, posteriormente me fuie familiarzando con la lectura de jsons.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+El proyecto fue construido con un nivel de JavaScript promedio apenas habia comenzado a entender los arrow functions, asincronias 
+promesas y jsons. Por eso este projecto no da más de si, cumplio su fúncion. Funcion que me llevara posteriormente a desarollar
+mejores stacks, y por puesto implementar backend. 
 
-## React Compiler
+Este acercamiento fue el pilar y el comienzo de lo que posteriormente desarrollaría 
+con gestoriaV2, proyecto que a su vez me llevó a construir [MizumeBlog](https://mizumeblog.es/).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Pagina Main]("src/assets/Pagina_Main.png");
 
-## Expanding the ESLint configuration
+![Pagina Segunda]("src/assets/Segunda_Pagina.png");
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Pagina Tercera]("src/assets/Header.png");
