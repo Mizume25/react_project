@@ -15,8 +15,8 @@ mejores stacks, y por puesto implementar backend.
 Este acercamiento fue el pilar y el comienzo de lo que posteriormente desarrollaría 
 con gestoriaV2, proyecto que a su vez me llevó a construir [MizumeBlog](https://mizumeblog.es/).
 
-![Pagina Main]("src/assets/Pagina_Main.png");
+![Pagina Main](src/assets/Pagina_Main.png);
 
-![Pagina Segunda]("src/assets/Segunda_Pagina.png");
+![Pagina Segunda](src/assets/Segunda_Pagina.png);
 
-![Pagina Tercera]("src/assets/Header.png");
+![Pagina Tercera](src/assets/Header.png);
